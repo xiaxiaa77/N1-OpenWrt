@@ -6,6 +6,9 @@ git clone https://github.com/xiaorouji/openwrt-passwall --depth=1 clone/passwall
 
 # only needs to be run once
 curl -s -L https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/feed.sh | ash
+opkg install nikki
+opkg install luci-app-nikki
+opkg install luci-i18n-nikki-zh-cn
 
 # 加入OpenClash核心
 #chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
