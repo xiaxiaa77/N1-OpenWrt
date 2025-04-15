@@ -4,6 +4,9 @@
 git clone https://github.com/ophub/luci-app-amlogic --depth=1 clone/amlogic
 git clone https://github.com/xiaorouji/openwrt-passwall --depth=1 clone/passwall
 
+# only needs to be run once
+curl -s -L https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/feed.sh | ash
+
 # 加入OpenClash核心
 #chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
 #$GITHUB_WORKSPACE/N1/preset-clash-core.sh
