@@ -5,7 +5,7 @@ git clone https://github.com/ophub/luci-app-amlogic --depth=1 clone/amlogic
 git clone https://github.com/xiaorouji/openwrt-passwall --depth=1 clone/passwall
 
 # only needs to be run once
-curl -s -L https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/feed.sh | ash
+curl -s -L https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/install.sh | ash
 opkg install nikki
 opkg install luci-app-nikki
 opkg install luci-i18n-nikki-zh-cn
